@@ -23,7 +23,6 @@ identity/
 
 # Editor and IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -31,8 +30,6 @@ identity/
 Thumbs.db
 
 # Environment and secrets
-.env
-.env.*
 !.env.example
 *.secret
 *.pem
@@ -62,3 +59,4 @@ docs/issues/
 # Scripts environment files
 /scripts/*.env
 
+config.bat
